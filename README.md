@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-This project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This undertaking involves a straightforward PowerShell script designed to guide users through the process of securely erasing (zeroing out) connected drives on the system. The utility provides the flexibility to choose the target disk and determine the number of passes for thorough sanitization. The PowerShell script dynamically configures a diskpart script file based on the user's preferences, initiating Diskpart to execute the disk sanitization process.
 <br />
 
 
@@ -18,15 +18,15 @@ This project consists of a simple PowerShell script that walks the user through 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+Launch the utility in the command line: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
+Select the disk in the Command line:  <br/>
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
+Enter the number of passes in the Command Line: <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -34,15 +34,15 @@ Confirm your selection:  <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+Wait for process to complete (normally takes a little time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
+Sanitization is now finally complete:  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
+Look at the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
